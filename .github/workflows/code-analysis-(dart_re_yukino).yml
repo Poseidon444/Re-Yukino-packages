@@ -1,9 +1,9 @@
-name: Code Analysis (Dart Tenka)
+name: Code Analysis (Dart Re-Yukino)
 
 on:
     push:
         branches:
-            - dart_tenka
+            - dart_re_yukino
     workflow_dispatch:
 
 jobs:
@@ -13,7 +13,7 @@ jobs:
         steps:
             - uses: actions/checkout@v2
               with:
-                  ref: dart_tenka
+                  ref: dart_re_yukino
 
             - uses: dart-lang/setup-dart@v1
 
